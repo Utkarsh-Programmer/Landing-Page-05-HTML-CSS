@@ -1,0 +1,183 @@
+/* || RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+/* ||UTILITY CLASSES */
+.main {
+	width: 100%;
+	height: 100%;
+}
+
+.top {
+	width: 100%;
+	height: 60%;
+	background-image: url("Assets/top-1.jpg");
+	background-size: cover;
+	background-position: 50% 60%;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+
+	position: relative;
+}
+
+.text {
+	width: 100%;
+	color: white;
+
+	position: absolute;
+	bottom: 20%;
+	padding: 0 10vw;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.right-text {
+	width: 60%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.right-text h5 {
+	font-weight: 400;
+	font-size: 12px;
+	width: 40%;
+	line-height: 20px;
+}
+
+.right-text span {
+	color: aqua;
+}
+
+.right-text i {
+	color: white;
+}
+
+.text h1 {
+	font-size: 6vw;
+	font-weight: 500;
+}
+
+.bottom {
+	width: 100%;
+	height: 40%;
+
+	display: flex;
+}
+
+.part1 {
+	width: 25%;
+	height: 100%;
+	background-color: #1f1c1c;
+	color: white;
+	padding: 30px;
+}
+
+.part1 p {
+	font-size: 12px;
+	margin-top: 14px;
+}
+
+.part1 h3 {
+	color: #e3dbdb;
+}
+
+.part1 .second-h3 {
+	margin-top: 30px;
+}
+
+.part2 {
+	width: 25%;
+	height: 100%;
+	background-image: url("Assets/bottom-1.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+
+.overlay-bottom {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(12, 2, 2, 0.7);
+
+	position: relative;
+}
+
+.part3 {
+	width: 20%;
+	height: 100%;
+}
+
+.part3 h4 {
+	color: #e3dbdb;
+}
+
+.sub-1 {
+	width: 100%;
+	height: 50%;
+	background-color: #222121;
+	color: white;
+	padding: 20px;
+}
+
+.sub-1 p {
+	font-size: 12px;
+}
+
+.sub-2 {
+	width: 100%;
+	height: 50%;
+	background-image: url("Assets/bottom-2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.part4 {
+	width: 30%;
+	height: 100%;
+	background-color: #1f1c1c;
+	color: white;
+	padding: 30px;
+}
+
+.part4 h3 {
+	color: #e3dbdb;
+}
+
+.notification {
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 20px;
+}
+
+.notification .photo {
+	width: 40px;
+	height: 40px;
+	/* background-color: red; */
+	background-image: url("Assets/profile-1.jpg");
+	border: 3px solid white;
+	border-radius: 50%;
+}
+
+.notification p {
+	width: 86%;
+	font-size: 12px;
+}
